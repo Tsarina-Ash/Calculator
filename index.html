@@ -8,34 +8,73 @@
     <title>Calculator</title>
 </head>
 
-<body>
-    <script src="main.js"></script>      
-    <div class="calculator-grid">
-        <div class ="top-bar">
-            <div value="equation" class="previous-operand">
-                </div>
-                    <div value="answer" class="current-operand">
-                        </div>
+<body>     
+
+<div class="title2">
+    <button class="title">
+        <details class="title">
+                Two Calculators I created for fun. Currently only top one works
+        </details>
+    </button>
+</div>
+
+<div class="simple-calc-grid">
+    <div class="simple-grid">
+        <div class="blackText">
+            <form id="demoForm">
+
+                <input type="number" name="x" class="simpleButton">
+                <input type="number" name="y" class="simpleButton">
+
+                <select name="operation" class="simpleButton" >
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                    <option value="multiply">Multiply</option>
+                    <option value="divide">Divide</option>
+                </select>
+
+                <button type="submit" class="simpleButton2">Calculate!</button>
+
+            </form>
+
+            <div id="output">
+
+            </div>
         </div>
-                            <button value="allClear" class="span-two">AC </button>
-                            <button value="delete  "                 >DEL</button>
-                            <button value="divide  "                 >÷  </button>
-                            <button value="number  "                 >1  </button>
-                            <button value="number  "                 >2  </button>
-                            <button value="number  "                 >3  </button>
-                            <button value="multiply"                 >x  </button>
-                            <button value="number  "                 >4  </button>
-                            <button value="number  "                 >5  </button>
-                            <button value="number  "                 >6  </button>
-                            <button value="add     "                 >+  </button>
-                            <button value="number  "                 >7  </button>
-                            <button value="number  "                 >8  </button>
-                            <button value="number  "                 >9  </button>
-                            <button value="subtract"                 >-  </button>
-                            <button value="point   "                 >.  </button>
-                            <button value="number  "                 >0  </button>
-                            <button value="confirm " class="span-two">=  </button>
     </div>
+</div>
+
+    <div id="complexCalc">
+        <div class="calculator-grid">
+            <div class ="top-bar">
+                <div value="equation" class="previous-operand">
+                    </div>
+                        <div value="answer" class="current-operand">
+                            </div>
+            </div>
+                                <button value="allClear" class="span-two">AC </button>
+                                <button value="delete  "                 >DEL</button>
+                                <button value="divide  "                 >÷  </button>
+                                <button value="number  "                 >1  </button>
+                                <button value="number  "                 >2  </button>
+                                <button value="number  "                 >3  </button>
+                                <button value="multiply"                 >x  </button>
+                                <button value="number  "                 >4  </button>
+                                <button value="number  "                 >5  </button>
+                                <button value="number  "                 >6  </button>
+                                <button value="add     "                 >+  </button>
+                                <button value="number  "                 >7  </button>
+                                <button value="number  "                 >8  </button>
+                                <button value="number  "                 >9  </button>
+                                <button value="subtract"                 >-  </button>
+                                <button value="point   "                 >.  </button>
+                                <button value="number  "                 >0  </button>
+                                <button value="confirm " class="span-two">=  </button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script> 
+
 </body>
 
 <footer class = "footer">
