@@ -45,10 +45,10 @@ function showData(event){
 		case 'subtract':
 			out = subtract(x,y);
 		break;
-		case 'add':
+		case 'multiply':
 			out = multiply(x,y);
 		break;
-		case 'subtract':
+		case 'divide':
 			out = divide(x,y);
 		break;        
 	}
